@@ -1,0 +1,25 @@
+//Hard Coded Users
+        User user1 = new User("Carl", giveCardNumber(), "4321", "555-5555", 23); // ID 1000
+        incrementNumberOfUsers();
+        users[numberOfUsers] = user1;
+        User user2 = new User("Brad", giveCardNumber(),"222 Mock lane", "212-9453", 15); // ID 1001
+        incrementNumberOfUsers();
+        users[numberOfUsers] = user2;
+        User user3 = new User("Phil", giveCardNumber(), "9876 Com street", "333-2222", 92); // ID 1002
+        incrementNumberOfUsers();
+        users[numberOfUsers] = user3;
+		User user4 = new User("Baby", giveCardNumber(), "96 Hidden Valley ", "123-2222", 10); // ID 1003
+        incrementNumberOfUsers();
+        users[numberOfUsers] = user4;
+        //Hard Coded Books
+		Book book1 = new Book("Percy Jackson", "001", false, true);
+		Book book2 = new Book("Twilight", "002", false, true);
+		Book book3 = new Book("Girl with Dragon Tattoo", "003", false, true);
+		Book book4 = new Book("Clockwork Orange", "004", false, true);
+		Book book5 = new Book("Grapes of Wrath", "005", false, true);
+		//Hard Coded Audio/Video
+		audioDvd media1 = new audioDvd("Cinderella", false, "Movie", 10);
+		audioDvd media2 = new audioDvd("Invictus", false, "Audiobook", 10);
+		audioDvd media3 = new audioDvd("Harry Potter", false, "Audiobook", 10);
+		audioDvd media4 = new audioDvd("The King", false, "Movie", 10);
+		audioDvd media5 = new audioDvd("Dude Where's my Car", false, "Movie", 10);
